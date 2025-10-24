@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: MIT
 # Copyright (C) 2025 Louie Bloomberg
 
+# If you have not installed Tidyverse, please use the command below and enter it in the R console.
+# install.packages("tidyverse")
 
-#Install Tidyverse
-#install.packages("tidyverse")
 #Load Tidyverse
 library(tidyverse)
 
@@ -19,17 +19,4 @@ dsmprecipdata_raw <- read.csv(file="dsmprecipdata.csv")
 dsmprecipdata <- clean_prep_data(dsmprecipdata_raw)
 
 dsm_prcp_graph <- graph_prcp_monthly(dsmprecipdata)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
