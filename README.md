@@ -15,7 +15,7 @@ The scripts clean, analyze, and visualize daily precipitation data collected at 
 
 ## How to Use
 
-1. Install R [https://cran.r-project.org](https://cran.r-project.org/).
+1. Install R [https://cloud.r-project.org](https://cloud.r-project.org/).
 2. Download the source code from GitHub from one of two ways:
 - Download the source code from the latest release on GitHub
 - Use git to clone the repository using the following command (requires [git](https://git-scm.com/install/) to be installed):
@@ -29,9 +29,10 @@ The scripts clean, analyze, and visualize daily precipitation data collected at 
    ```
 5. Open and run `dsmprecipeda.R` in R or RStudio. This will display the precipitation graph in your R session.
 
-## What the Graph Shows
+## What the Line Graph Shows
 
-- Daily precipitation (in inches) from January through early August.
+- Daily precipitation (in inches) from January through early August. 
+- - X\-axis shows dates labeled week\-by\-week to make weekly trends easy to read.
 - Spikes indicate days with significant rain.
 - Extended periods of low or zero values highlight dry spells.
 
