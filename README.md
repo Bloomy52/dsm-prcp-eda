@@ -32,7 +32,7 @@ The scripts clean, analyze, and visualize daily precipitation data collected at 
 ## What the Line Graph Shows
 
 - Daily precipitation (in inches) from January through early August. 
-- - X\-axis shows dates labeled week\-by\-week to make weekly trends easy to read.
+- X\-axis shows dates labeled week\-by\-week to make weekly trends easy to read.
 - Spikes indicate days with significant rain.
 - Extended periods of low or zero values highlight dry spells.
 
